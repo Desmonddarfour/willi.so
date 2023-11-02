@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0;
+  
+}
+body {
+  background: url(579ce501b8c6d2a3731b4950cdb60500.jpg);
+  background-size: cover;
+  color: white;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+}
+
+
+pre {
+  font-family: calibri;
+}
+
+.headerimg {
+  width: 150px;
+  animation: glow, grow;
+  animation-duration: 4s;
+  transition: 1s;
+}
+
+.headerimg:hover {
+  box-shadow: 0px 0px 50px yellow
+}
+
+.red, .green {
+  animation-name: slide-left;
+  animation-duration: 2s;
+}
+
+.blue, .yellow {
+  animation-name: slide-up;
+  animation-duration: 3s;
+}
+
+.red:hover {
+  color: red;
+}
+
+.blue:hover {
+  color: blue;
+}
+
+h3 .song {
+  color:  grey;
+}
+
+.green:hover {
+color: green;  
+}
+
+.yellow:hover {
+  color: yellow;
+}
+
+.colo {
+  transition: 0.8s;
+}
+
+.tictok {
+  border-radius: 25px;
+}
+
+.imgs {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(114, 110, 110);
+  padding: 10px;
+}
+
+.imgs img {
+  margin-right: 10px;
+  transition: 0.5s;
+}
+
+.right img {
+  transition: 0.5s;
+}
+
+.clck {
+  margin-bottom: 10px;
+  font-size: 1.3em;
+}
+.follow {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 1.3em;
+}
+
+.mainsec {
+  margin-left: 1em;
+}
+
+.mvp {
+  font-style: italic;
+  color: grey;
+}
+
+header {
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+.imgs img:hover {
+  width: 80px;
+}
+
+.right img:hover {
+  width: 80px;
+}
+
+.tictok:hover {
+  border-radius: 40px;
+}
+
+
+@media(min-width: 840px) {
+  body {
+    background: url(1649074ecd03634e05639d767e131258.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 2em;
+  }
+
+  .blue:hover {
+    color: rgb(192, 70, 0);
+  }
+
+  .headerimg:hover {
+    box-shadow: 0px 0px 50px red;
+  }
+
+  .heimg {
+    text-align: center;
+  }
+
+  .headerimg {
+    width: 250px;
+  }
+ 
+  footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fol {
+  margin-top: -40px;
+}
+
+
+h3 .song {
+  color: grey;
+}
+
+.colo {
+  width: 650px;
+}
+}
+
+
+@keyframes glow {
+  50%{box-shadow: 0px 0px 50px yellow}
+}
+
+@keyframes slide-left {
+  from{transform: translatex(300px);} 
+}
+
+@keyframes slide-up {
+  from{transform: translatey(300px);}
+}
+
+@keyframes grow {
+  50%{transform: scale(2, 2);}
+}
+
